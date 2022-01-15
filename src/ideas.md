@@ -17,6 +17,7 @@ Reddit
 
 [] Use Agent Image in Background;
 [] BP Calculator?
+[] pagination for lineups
 
 
 List of Line ups

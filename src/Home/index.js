@@ -1,19 +1,21 @@
 import { Button } from "@material-ui/core";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import LineupList from "./LineupList";
 
 function Home() {
   const navigate = useNavigate();
   return (
     <div className="home">
-      <h1>this is the home page</h1>
-      <button
+      <Button
         onClick={() => {
           navigate("/map");
         }}
       >
         Go to Map
-      </button>
+      </Button>
+      <h1>this is the home page</h1>
+      <LineupList/>
     </div>
   );
 }
