@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 // import LineupFilter from "./LineupFilter";
 import { setCurrentLineup } from "../../features/lineupSlice";
 import lineupData from "../../assets/json/lineups.json";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./LineupList.css";
 
 function LineupList() {
@@ -13,7 +14,7 @@ function LineupList() {
   const dispatch = useDispatch();
   const goToLineup = (lineup) => {
     dispatch(setCurrentLineup(lineup));
-    navigate("/map");
+    navigate("/lineup");
   };
   return (
     <div className="lineupList">
@@ -31,7 +32,8 @@ function LineupList() {
               }}
             >
               <div className="lineupList__item--imageContainer">
-                <img src={map} alt="" />
+                <LazyLoadImage src={map} alt="" />
+                {/* <img src={map} alt="" loading="lazy" /> */}
               </div>
               <div className="lineupList__item--infoContainer">
                 <h3>{lineup.title}</h3>

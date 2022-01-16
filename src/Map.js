@@ -27,6 +27,7 @@ function Map() {
   return (
     <div className="map">
       <div className="map__container">
+        <h4 className="map__label">{`//${lineup.map.toUpperCase()}`}</h4>
         <ImageMap
           className="map__map"
           map={lineup.mapArea}

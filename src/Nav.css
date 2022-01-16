@@ -4,6 +4,7 @@
 }
 
 .nav__logo {
+  margin: 0.5rem;
   height: 3.125rem;
   object-fit: contain;
 }
