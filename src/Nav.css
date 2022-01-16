@@ -1,0 +1,9 @@
+.nav {
+  background-color: var(--charcoal);
+  width: 100%;
+}
+
+.nav__logo {
+  height: 3.125rem;
+  object-fit: contain;
+}

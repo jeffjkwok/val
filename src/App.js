@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Home";
 import Map from "./Map";
+import Nav from "./Nav";
 
 function App() {
   return (
     <Router>
       <div className="app">
-        <h3>Test Project</h3>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/map" element={<Map />} />

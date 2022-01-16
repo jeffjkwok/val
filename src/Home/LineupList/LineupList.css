@@ -1,11 +1,56 @@
 .lineupList {
-
 }
 
 .lineupList > h1 {
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-size: 5rem;
-    color: var(--red);
-    letter-spacing: -0.125rem;
-  }
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: var(--red);
+  letter-spacing: -0.1rem;
+}
+
+.lineupList__list {
+  margin: auto;
+  max-width: 30%;
+  background-color: var(--charcoal);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 24px 5px 10px 1px rgb(30, 30, 30, 0.52);
+}
+
+.lineupList__item {
+  display: flex;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: var(--charcoal);
+}
+
+.lineupList__item > * p {
+  margin-right: 1rem;
+}
+.lineupList__item > * b {
+  font-weight: 600;
+}
+
+.lineupList__item--imageContainer > img {
+  object-fit: contain;
+  max-height: 100px;
+  margin-right: 1rem;
+}
+
+.lineupList__item--infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.lineupList__item--infoContainer > h3 {
+    margin-bottom: 1rem;
+}
+
+.lineupList__item--agentInfo,
+.lineupList__item--mapInfo {
+  display: flex;
+  flex: 1;
+}
