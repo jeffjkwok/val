@@ -47,6 +47,8 @@ Line up object
         coordinates: any[]
         ability: string,
         credit: creator[],
+        resolution: string;
+        crosshair: string;
         media: {
             image: string[],
             video: string

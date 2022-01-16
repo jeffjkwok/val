@@ -1,0 +1,32 @@
+{
+  "lineups": [
+    {
+      "id": 0,
+      "title": "Arcade Side B Tower Smoke",
+      "description": "",
+      "map": "Fracture",
+      "side": "Attack",
+      "agent": "Viper",
+      "ability": "Poison Orb",
+      "deprecated": false,
+      "resolution": "Native",
+      "media": {
+        "images": [],
+        "video": ""
+      },
+      "mapArea": [
+        {
+          "left": "37%",
+          "top": "8.5%",
+          "height": "5%",
+          "width": "5%",
+          "style": {
+            "background": "rgba(255, 0, 0, 0.5)",
+            "borderRadius": "50%",
+            "cursor": "pointer"
+          }
+        }
+      ]
+    }
+  ]
+}

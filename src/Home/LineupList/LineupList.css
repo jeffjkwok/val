@@ -1,3 +1,11 @@
 .lineupList {
 
 }
+
+.lineupList > h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: var(--red);
+    letter-spacing: -0.125rem;
+  }
