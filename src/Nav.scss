@@ -1,0 +1,10 @@
+.nav {
+  background-color: var(--charcoal);
+  width: 100%;
+
+  &__logo {
+    margin: 0.5rem;
+    height: 3.125rem;
+    object-fit: contain;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Map.css";
+import "./Map.scss";
 import AscentImage from "./assets/maps/ascent.png";
 import BindImage from "./assets/maps/bind.png";
 import BreezeImage from "./assets/maps/breeze.png";

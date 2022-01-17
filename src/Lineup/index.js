@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { selectLineup } from "../features/lineupSlice";
 import Map from "../Map";
-import "./Lineup.css";
+import "./Lineup.scss";
 
 function Lineup() {
   const lineup = useSelector(selectLineup);

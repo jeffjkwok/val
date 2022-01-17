@@ -2,7 +2,7 @@ import { Button } from "@material-ui/core";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "./assets/images/valorantIcon.png";
-import "./Nav.css";
+import "./Nav.scss";
 
 function Nav() {
   const navigate = useNavigate();

@@ -1,0 +1,25 @@
+.lineup {
+  display: flex;
+  position: relative;
+  margin: auto;
+  padding: 5%;
+  width: 100%;
+
+  &__info {
+    flex: 0.4;
+  }
+
+  &__backgroundText {
+    position: absolute;
+    color: #fff;
+    font-size: 32rem;
+    font-family: "Oswald", Bold, arial, georgia, sans-serif;
+    line-height: 0.82;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.125);
+    text-transform: uppercase;
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+  }
+}

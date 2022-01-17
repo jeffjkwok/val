@@ -1,0 +1,25 @@
+.map {
+  width: 45%;
+  flex: 0.45;
+
+  &__container {
+    display: flex;
+    border: 3px solid #fff;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    background-color: #0f1923;
+    z-index: 1;
+  }
+
+  &__label {
+    color: #0f1923;
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg);
+    right: -7rem;
+    top: 4rem;
+    font-size: 2rem;
+  }
+}

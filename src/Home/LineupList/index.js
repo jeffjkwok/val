@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { setCurrentLineup } from "../../features/lineupSlice";
 import lineupData from "../../assets/json/lineups.json";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "./LineupList.css";
+import "./LineupList.scss";
 
 function LineupList() {
   const loadingImages = require.context("../../assets/maps/loading", true);
